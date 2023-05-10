@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Caculator quiz</title>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Caculator quiz</h1>
+            
+            <div id="question"></div><br>
+            <div id="mainContent" class="box">
+                <div class="inputBox">
+                    <input type="text" id = "input" onkeypress="clickPress(event)">
+                </div>
+                <div class="button">
+                    <button type="button" onclick="input()" >Answer</button>
+                    <button type="button" onclick="result()" class = "button">Result</button>
+                    <button type="button" onclick="play()" >Play Again</button>
+                </div>
+            </div>
+            <div id="output">
+                <div id="result"></div>
+                <div id= "answer"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Created by Ngoc Tu and ~Duy~, May 2023</p>
+        </div>
+        
+        <script src="cacl.js"></script>
+        
+    </body>
+</html>

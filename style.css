@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sigmar', cursive;
+    font-size: 16px;
+    background: url(images/background.jpg);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.inputBox{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button{
+    text-align: center;
+}
+
+Button {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sigmar', cursive;
+    color: #14396A !important;
+    font-size: 16px;
+    box-shadow: 3px 3px 2px #D7CFF9;
+    padding: 10px 19px;
+    border-radius: 22px;
+    border: 3px groove #3866A3;
+    background: #FFFFFF;
+  }
+  Button:hover {
+    color: #000000 !important;
+    background: #FF96F1;
+  }
+
+  h1{
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sigmar', cursive;
+    background: #FF0AC6;
+    background: repeating-radial-gradient(ellipse farthest-corner at center center, #FF0AC6 36%, #411C96 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 60px;
+    margin-top: 0px;
+  }
+
+  Input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width:  350px;
+    border-style: groove;
+    border-radius: 22px;
+    border: 2px groove #3866A3;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 2px #D7CFF9;
+  }
+
+
+
+  #question{
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #output{
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    color: gray;
+    text-align: center;
+  }
+
